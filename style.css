@@ -1,0 +1,36 @@
+/* topbar */
+.topbar {
+  background-color: #46968e;
+  height: 50px;
+}
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 15px;
+  padding-right: 30px;
+  gap: 40px;
+}
+/*logo*/
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: -32px;
+}
+/* searchbox */
+.searchbox {
+  margin-top: -38px;
+  margin-left: 20px;
+}
+.searchbox input {
+  background-color: #95cfab;
+  border-radius: 7px;
+  width: 200px;
+  height: 28px;
+  width: 190px;
+  box-shadow: 3px 3px 2px 1px #313035;
+}
+.searchbox input::placeholder {
+  padding-left: 60px;
+  font-size: 20px;
+  color: #313035;
+}
