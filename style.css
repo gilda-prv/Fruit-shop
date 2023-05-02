@@ -1,25 +1,44 @@
 /* topbar */
 .topbar {
   background-color: #46968e;
-  height: 50px;
+  height: 60px;
+  border-bottom: #313035 solid 3px;
 }
-.icons {
+/* nav */
+.nav-tag {
   display: flex;
-  justify-content: flex-end;
-  padding-top: 15px;
-  padding-right: 30px;
-  gap: 40px;
+  justify-content: flex-start;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+li {
+  list-style-type: none;
+  margin-right: 30px;
+  font-weight: bolder;
+}
+li a {
+  color: #313035;
+  font-size: 18px;
+  text-decoration: none;
+}
+li a:hover {
+  color: white;
+  cursor: pointer;
 }
 /*logo*/
 .logo {
   display: flex;
   justify-content: center;
-  margin-top: -32px;
+  margin-top: -50px;
 }
 /* searchbox */
 .searchbox {
-  margin-top: -38px;
-  margin-left: 20px;
+  margin-top: -48px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: flex-end;
 }
 .searchbox input {
   background-color: #95cfab;
